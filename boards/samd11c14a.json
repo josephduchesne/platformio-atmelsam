@@ -1,0 +1,32 @@
+{
+  "build": {
+    "cpu": "cortex-m0",
+    "f_cpu": "20000000L",
+    "mcu": "samd11c14a",
+    "core": "fabsam",
+    "variant": "Generic_D11C14A"
+  },
+  "debug": {
+    "onboard_tools": [
+      "cmsis-dap"
+    ],
+    "openocd_chipname": "at91samd11c14a",
+    "openocd_target": "at91samdXX",
+    "svd_path": "ATSAMD11C14A.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Generic_D11C14A",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "sam-ba",
+    "protocols": [
+      "cmsis-dap",
+      "atmel-ice"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/SAMD21-XPRO/",
+  "vendor": "Fabsam"
+}
