@@ -34,7 +34,7 @@
     ]
   },
   "debug": {
-    jlink_device": "ATSAMD11C14",
+    "jlink_device": "ATSAMD11C14",
     "onboard_tools": [
       "cmsis-dap"
     ],
